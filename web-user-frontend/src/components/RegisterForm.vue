@@ -36,7 +36,7 @@ export default {
       successMessage.value = '';
 
       try {
-        await axios.post('http://localhost:8080/api/users/register', {
+        await axios.post(`${process.env.VUE_APP_API_URL}/users/register`, {
           username: username.value,
           password: password.value,
         });
