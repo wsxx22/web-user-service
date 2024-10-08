@@ -3,6 +3,11 @@
 ## Description
 Web User Service is a simple application for registering users. The backend is made with Spring Boot and the frontend is created using Vue.js.
 
+### Live Demo
+
+You can also see the live version of the application running on hosting Render:
+   https://web-user-service.onrender.com
+
 ### How to run the backend locally
 
 1. Make sure you have **Java 17** installed.
