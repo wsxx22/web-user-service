@@ -8,7 +8,7 @@ COPY . .
 
 RUN chmod +x ./gradlew
 
-RUN ./gradlew clean build --no-daemon
+RUN ./gradlew clean build
 
 EXPOSE 8080
 
